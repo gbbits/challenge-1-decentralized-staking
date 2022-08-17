@@ -1,0 +1,75 @@
+{
+  "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "complete",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "completed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x66ad5adf4a44ff20a4f429fe6747e8f4c1c2e9214b476d91b269e5e0328ed447",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "transactionIndex": 0,
+    "gasUsed": "87977",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x94d2c93c604300d1695f44832f0bc1940e968891edd1efd57194e7c3912f2289",
+    "transactionHash": "0x66ad5adf4a44ff20a4f429fe6747e8f4c1c2e9214b476d91b269e5e0328ed447",
+    "logs": [],
+    "blockNumber": 4,
+    "cumulativeGasUsed": "87977",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "66abfd95db972a28b40a654f778ebe0a",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"complete\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"completed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ExampleExternalContract.sol\":\"ExampleExternalContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ExampleExternalContract.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\ncontract ExampleExternalContract {\\r\\n\\r\\n  bool public completed;\\r\\n\\r\\n  function complete() public payable {\\r\\n    completed = true;\\r\\n  }\\r\\n\\r\\n}\\r\\n\",\"keccak256\":\"0x2c28e17734e6500022ef93b0579baf1ebd07986f12c839ee59b37ff2784d8d1c\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060a08061001e6000396000f3fe60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe914603e575b600080fd5b603c6000805460ff19166001179055565b005b348015604957600080fd5b5060005460569060ff1681565b604051901515815260200160405180910390f3fea264697066735822122020f19612639a43d48ea84ff8a2e00c198869f020a4ac630fadd53c2d1006f03a64736f6c63430008040033",
+  "deployedBytecode": "0x60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe914603e575b600080fd5b603c6000805460ff19166001179055565b005b348015604957600080fd5b5060005460569060ff1681565b604051901515815260200160405180910390f3fea264697066735822122020f19612639a43d48ea84ff8a2e00c198869f020a4ac630fadd53c2d1006f03a64736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/ExampleExternalContract.sol:ExampleExternalContract",
+        "label": "completed",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
